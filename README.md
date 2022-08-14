@@ -1,4 +1,7 @@
-# cfv-website-1
+# CodeForVegas.org
+
+**STILL IN PROGRESS**
+[Link to current website](https://codeforvegas.org/)
 
 ## Build Setup
 
