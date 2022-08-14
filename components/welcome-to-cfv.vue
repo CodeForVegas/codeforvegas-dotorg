@@ -20,7 +20,7 @@ export default {
     justify-content: center;
     align-items: center;
     height: 30rem;
-    width: 50%;
+    width: 45%;
 }
 
 .welcome-header {
