@@ -1,9 +1,9 @@
 <template>
 <div>
     <b-container class="welcome-container">
-        <div class="welcome-header">
+        <b-row class="welcome-header">
             <h1>Welcome to Code For Vegas</h1>
-        </div>
+        </b-row>
     </b-container>
 </div>
 </template>
@@ -20,7 +20,7 @@ export default {
     justify-content: center;
     align-items: center;
     height: 30rem;
-    width: 45%;
+    width: 40em;
 }
 
 .welcome-header {
@@ -38,8 +38,19 @@ export default {
   from { width: 0; }
   to { width: 100%; }
 }
+
 @keyframes cursor {
   from, to { border-color: transparent; }
   50% { border-color: #fff; }
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .welcome-container {
+        width: 30em;
+    }
 }
 </style>
