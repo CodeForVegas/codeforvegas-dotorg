@@ -1,22 +1,17 @@
 <template>
   <body>
       <NavBar />
-      <WelcomeToCFV />
+      <WelcomeToCfv />
       <AboutUs />
   </body>
 </template>
 
 <script>
-import NavBar from "../components/nav-bar.vue"
-import WelcomeToCFV from "../components/welcome-to-cfv.vue"
-import AboutUs from "../components/about-us.vue"
 
 export default {
   name: 'HomePage',
-  components: {
-    NavBar,
-    WelcomeToCFV,
-    AboutUs,
+  head: {
+    title: 'Code For Vegas',
   }
 }
 </script>
