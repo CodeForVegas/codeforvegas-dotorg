@@ -1,7 +1,10 @@
 # CodeForVegas.org
 
 **STILL IN PROGRESS**
-[Link to current website](https://codeforvegas.org/)
+
+
+Here is the link to [the current website](https://codeforvegas.org/).
+
 
 ## Build Setup
 
