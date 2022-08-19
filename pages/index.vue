@@ -3,13 +3,16 @@
       <NavBar />
       <WelcomeToCfv />
       <AboutUs />
+      <ProjectsInfo />
   </body>
 </template>
 
 <script>
+import projectsInfo from '~/components/projects-info.vue'
 
 export default {
   name: 'HomePage',
+  components: { projectsInfo },
   head: {
     title: 'Code For Vegas',
   }
