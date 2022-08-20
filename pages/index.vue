@@ -18,7 +18,7 @@ export default {
   name: 'HomePage',
   components: { projectsInfo },
   head: {
-    title: 'Code For Vegas',
+    title: 'Code For Vegas Foundation',
   }
 }
 </script>
