@@ -2,7 +2,7 @@
   <div>
     <b-container class="events-container">
         <b-row class="events-header" align-h="center">
-            <h3>Events</h3>
+            <h2>Events</h2>
         </b-row>
         <b-row>
             <p>At present we have two monthly recurring in-person events scheduled to bring together the curious and the collaborative. All are welcome, if you are interested you are invited!</p>
