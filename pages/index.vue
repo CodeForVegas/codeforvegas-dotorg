@@ -4,6 +4,7 @@
       <WelcomeToCfv />
       <AboutUs />
       <ProjectsInfo />
+      <EventsInfo />
   </body>
 </template>
 
