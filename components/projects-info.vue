@@ -21,7 +21,7 @@
             <h4 class="capstone-header">Virtual Vegas</h4>
             <p>Virtual Vegas is a Digital Twin implementation, making maximal use of Open Data datasets and all of the specific topics addressed month over month, the goal is to enable the smartest of smart applications and other projects developments to enable discovery, learning, and participation in our Smart City. It would be easy to compare this project to something like Civilization or Sim City, and both of those would be valid comparisons, but this project will aim to be a platform on which someone might build a game similar to these, or develop open news tools, neighborhood communications tools, safety visualizations, and so on. The possibilities are endless!</p>
         </b-row>
-        <b-row class="projects info">
+        <b-row class="projects-info">
             <h4 class="capstone-header">Education</h4>
             <p>This is a capstone in the earliest phases of planning and discussion. Early thinking is to enable a more flexible education platform for students of all ages in the Las Vegas area, adapting what was learned during school closures in pandemic lockdown intervals, adaptation to different learning styles, and enabling learning at different rates for different students, especially in cases where there might be a teacher staffing shortage. If Making our Smart City Smarter is the ultimate goal of Code for Vegas Foundation, Education and an educated populace are the bedrock foundation on which this goal is best built.</p>
         </b-row>
@@ -45,6 +45,6 @@ export default {
 }
 
 .capstone-header {
-    padding: 15px 0px 5px 0px;
+    padding: 20px 0px 5px 0px;
 }
 </style>

@@ -19,6 +19,8 @@
         </b-row>
         <b-row>
             <h4 class="events-subheader">Monthly Hackathon Meetup</h4>
+        </b-row>
+        <b-row>
             <ul>
                 <li><b>When:</b> Saturday and Sunday, 10 and 11 September 2022, 9am-5pm</li>
                 <li><b>Where:</b> <a href="https://goo.gl/maps/Rp6DGogP55ySZbmDA">International Innovation Center 1 in Downtown Las Vegas</a></li>
@@ -28,6 +30,8 @@
         </b-row>
         <b-row>
             <h4 class="events-subheader">Monthly Community Panel</h4>
+        </b-row>
+        <b-row>
             <ul>
                 <li><b>When:</b> Saturday, 10 September 2022, 10am Pacific Time</li>
                 <li><b>Where:</b> Online and in-person at the monthly Hackathon Meetup</li>
@@ -54,7 +58,7 @@ export default {
 }
 
 .events-subheader {
-    padding: 15px 0px 5px 0px;
+    padding: 20px 0px 5px 0px;
 }
 
 </style>

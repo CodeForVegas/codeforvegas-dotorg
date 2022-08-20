@@ -5,6 +5,7 @@
       <AboutUs />
       <ProjectsInfo />
       <EventsInfo />
+      <ContactUs />
   </body>
 </template>
 
