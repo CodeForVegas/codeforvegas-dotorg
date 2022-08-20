@@ -7,15 +7,15 @@
         </b-row>
         <b-row>
             <b-card-group class="members">
-                <b-card bg-variant="dark" text-variant="light" title="Zach Gonzalez" img-src="https://codeforvegas.org/assets/1655397580842.jpeg" sub-title="President, Acting Secretary">
+                <b-card bg-variant="dark" text-variant="light" title="Zach Gonzalez" :img-src="zachImg" sub-title="President, Acting Secretary">
                     <b-card-text>Co-founder of Co Flow, CEO of Polaris, CTO of Intagly, Flutter developer, and leading Code for Vegas Foundation into the future.</b-card-text>
                     <a href="https://www.linkedin.com/in/zach-gonzalez-a30578213/">LinkedIn</a>
                 </b-card>
-                <b-card bg-variant="dark" text-variant="light" title="Dan Hugo" img-src="https://codeforvegas.org/assets/1558749517171.jpeg" sub-title="Director, Acting Treasurer">
+                <b-card bg-variant="dark" text-variant="light" title="Dan Hugo" :img-src="danImg" sub-title="Director, Acting Treasurer">
                     <b-card-text>Founder of ReallyCool Technologies, LLC, Maker of Friends, Friend of Makers, making the most noise most of the time on behalf of the Code for Vegas Foundation.</b-card-text>
                     <a href="https://www.linkedin.com/in/danhugo">LinkedIn</a>
                 </b-card>
-                <b-card bg-variant="dark" text-variant="light" title="Shawn Looker" img-src="https://codeforvegas.org/assets/1516938309463.jpeg" sub-title="Director">
+                <b-card bg-variant="dark" text-variant="light" title="Shawn Looker" :img-src="shawnImg" sub-title="Director">
                     <b-card-text>Co-founder and Co-Captain of the original Code for Vegas Brigade in 2014, part of Code for America. Shawn brings the origin story of Code for Vegas to the present day.</b-card-text>
                     <a href="https://www.linkedin.com/in/slooker/">LinkedIn</a>
                 </b-card>
@@ -27,6 +27,13 @@
 
 <script>
 export default {
+    data() {
+        return {
+            zachImg: require("../assets/ZachG.jpeg"),
+            danImg: require("../assets/DanH.jpeg"),
+            shawnImg: require("../assets/ShawnL.jpeg")
+        }
+    }
 
 }
 </script>
