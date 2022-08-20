@@ -7,7 +7,7 @@
         <b-navbar-nav class="nav-links">
           <b-nav-item class="nav-link" href="#about-us">About Us</b-nav-item>
           <b-nav-item class="nav-link" href="#projects">Projects</b-nav-item>
-          <b-nav-item class="nav-link" href="#getinvolved">Get Involved</b-nav-item>
+          <b-nav-item class="nav-link" href="#get-involved">Get Involved</b-nav-item>
         </b-navbar-nav>
       </b-navbar>
     </div>
