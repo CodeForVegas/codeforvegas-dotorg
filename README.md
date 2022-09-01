@@ -1,9 +1,9 @@
 # CodeForVegas.org
 
-**STILL IN PROGRESS**
+**THIS REPO HAS MOVED LOCATIONS**
 
 
-Here is the link to [the current website](https://codeforvegas.org/).
+To contribute please see [the new repository](https://github.com/CodeForVegas/cfv-dotorg).
 
 
 ## Build Setup
